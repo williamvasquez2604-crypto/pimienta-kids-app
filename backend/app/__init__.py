@@ -4,7 +4,7 @@ from sqlalchemy import text
 
 from .config import Config
 from .extensions import db, migrate
-
+from . import models  # noqa: F401 — registra todos los modelos en db.metadata
 
 def create_app(config_class=Config):
     app = Flask(__name__)
