@@ -1,0 +1,8 @@
+.git
+.gitignore
+.env
+*.md
+DOCUMENTOS Pimient/
+backups/
+__pycache__/
+node_modules/
