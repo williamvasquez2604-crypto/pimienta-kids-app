@@ -32,3 +32,25 @@ docker compose up -d
 docker compose ps
 curl http://192.168.1.4:5000/api/health
 
+
+## 📂 Estructura
+backend/ → Flask API
+frontend/ → React SPA
+database/ → init.sql
+backups/ → backups BD
+
+
+## 📊 Estado del proyecto
+
+- [x] **Fase 1 — Cimientos** (Docker + Flask + React + MySQL operativos)
+- [ ] Fase 2 — Modelos + Migraciones
+- [ ] Fase 3 — Autenticación TOTP
+- [ ] Fase 4 — Catálogo público
+- [ ] Fase 5 — Panel admin
+- [ ] Fase 6 — Imágenes + optimización WebP
+- [ ] Fase 7 — Legal + Reclamos INDECOPI
+- [ ] Fase 8 — Despliegue producción
+
+## 👨‍💻 Autor
+
+Desarrollado por **William Vasquez** ([@williamvasquez2604-crypto](https://github.com/williamvasquez2604-crypto))
